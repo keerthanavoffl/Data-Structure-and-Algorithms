@@ -10,18 +10,17 @@ This repository contains my implementations of fundamental **Data Structures and
 Data-Structure-and-Algorithms/
 │
 ├── Array/
-│   ├── LinkedListOperations.cpp
-│   ├── StackOperations.cpp
-│   ├── QueueOperations.cpp
-│   └── DequeueOperations.cpp
+│   ├── LinkedList.cpp
+│   ├── Stack.cpp
+│   ├── Queue.cpp
+│   └── Dequeue.cpp
 │
 ├── LinkedList/
 │   ├── LinkedList.cpp
 │   ├── Stack.cpp
 │   ├── Queue.cpp
-│   └── Deque.cpp
+│   └── Dequeue.cpp
 │
-├── .gitignore
 └── README.md
 ```
 
