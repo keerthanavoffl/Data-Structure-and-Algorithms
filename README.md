@@ -1,28 +1,44 @@
 # Data Structures and Algorithms
 
-This repository contains my implementations of fundamental **Data Structures and Algorithms (DSA)** in **C++**. The programs are written from scratch to strengthen my understanding of core concepts and improve problem-solving skills.
+This repository contains my implementations of fundamental **Data Structures and Algorithms (DSA)** in **C++**. All data structures are implemented from scratch to build a strong understanding of their internal working, operations, and time complexities.
+
+---
 
 ## Repository Structure
 
-```
+```text
 Data-Structure-and-Algorithms/
 │
-├── linked_list_array/
-│   └── LinkedListOperations.cpp
+├── Array/
+│   ├── linked_list_array/
+│   │   └── LinkedListOperations.cpp
+│   │
+│   ├── stack_array/
+│   │   └── StackOperations.cpp
+│   │
+│   ├── queue_array/
+│   │   └── QueueOperations.cpp
+│   │
+│   └── dequeue_array/
+│       └── DequeueOperations.cpp
 │
-├── queue_array/
-│   └── QueueOperations.cpp
-│
-├── stack_array/
-│   └── StackOperations.cpp
+├── LinkedList/
+│   ├── LinkedList.cpp
+│   ├── Stack.cpp
+│   ├── Queue.cpp
+│   └── Deque.cpp
 │
 ├── .gitignore
 └── README.md
 ```
 
+---
+
 ## Implemented Data Structures
 
-### Linked List using Arrays
+### Array-Based Implementations
+
+#### Linked List using Arrays
 
 - Insert at Beginning
 - Insert at End
@@ -34,7 +50,7 @@ Data-Structure-and-Algorithms/
 - Delete by Value
 - Traversal (Display)
 
-### Stack using Arrays
+#### Stack using Arrays
 
 - Push
 - Pop
@@ -44,7 +60,7 @@ Data-Structure-and-Algorithms/
 - IsFull
 - Display
 
-### Queue using Arrays
+#### Queue using Arrays
 
 - Enqueue
 - Dequeue
@@ -53,19 +69,82 @@ Data-Structure-and-Algorithms/
 - IsEmpty
 - Display
 
+#### Deque using Arrays
+
+- Insert Front
+- Insert Rear
+- Delete Front
+- Delete Rear
+- Peek Front
+- Peek Rear
+- Display
+
+---
+
+### Linked List-Based Implementations
+
+#### Singly Linked List
+
+- Insert at Front
+- Insert at Tail
+- Insert at Position
+- Delete at Front
+- Delete at Tail
+- Delete at Position
+- Delete by Value
+- Traversal (Display)
+
+#### Stack using Linked List
+
+- Push
+- Pop
+- Peek
+- IsEmpty
+- Display
+
+#### Queue using Linked List
+
+- Enqueue
+- Dequeue
+- Peek
+- IsEmpty
+- Display
+
+#### Deque using Doubly Linked List
+
+- Insert Front
+- Insert Rear
+- Delete Front
+- Delete Rear
+- Peek Front
+- Peek Rear
+- Display
+
+---
+
 ## Language
 
 - C++
 
+---
+
 ## Concepts Practiced
 
-- Array-based implementation
-- Linear Data Structures
-- Basic Data Structure Operations
+- Arrays
+- Linked Lists
+- Stacks
+- Queues
+- Deques
+- Pointer Manipulation
+- Dynamic Memory Allocation
 - Object-Oriented Programming (Classes & Objects)
-- Time Complexity Awareness
+- Time and Space Complexity Analysis
 
-## How to Compile
+---
+
+## Compilation
+
+Compile a program using:
 
 ```bash
 g++ filename.cpp -o output
@@ -74,10 +153,12 @@ g++ filename.cpp -o output
 Example:
 
 ```bash
-g++ QueueOperations.cpp -o queue
+g++ Queue.cpp -o queue
 ```
 
-## How to Run
+---
+
+## Running the Program
 
 ### Windows
 
@@ -85,10 +166,26 @@ g++ QueueOperations.cpp -o queue
 queue.exe
 ```
 
+### Linux / macOS
 
-## Goal
-
-The goal of this repository is to build a strong foundation in **Data Structures and Algorithms** by implementing each data structure and algorithm from scratch before moving on to advanced problem solving and coding interview preparation.
+```bash
+./queue
+```
 
 ---
-⭐ Feel free to explore the code and follow along as the repository grows.
+
+## Learning Goals
+
+This repository is part of my journey to strengthen my understanding of:
+
+- Data Structures
+- Algorithms
+- Problem Solving
+- Competitive Programming
+- Technical Interview Preparation
+
+Each implementation is written manually before relying on STL containers to gain a deeper understanding of how these data structures work internally.
+
+---
+
+⭐ This repository will continue to grow as I learn and implement more Data Structures and Algorithms.
