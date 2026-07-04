@@ -20,9 +20,7 @@ class Linkedlist_array{
             next[freehead] = head;
             head = freehead;
             freehead++;
-        }
-
-
+        }                  
         void insertatk(int val, int k){
             if( k == 0 || head == -1){
                 data[freehead] = val;
@@ -41,12 +39,10 @@ class Linkedlist_array{
             next[curr] = freehead;
             freehead++;
         }
-
-
         void insertatend(int val){
             if(head == -1){
                 insertatbeginning(val);
-                return;
+                return;                 
             }
             int curr = head;
             while(next[curr] != -1){
